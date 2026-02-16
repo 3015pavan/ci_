@@ -1,4 +1,4 @@
-const apiKey = process.env.WEATHER_API_KEY;
+const apiKey = process.env.SECRET_NAME;
 if (!apiKey) {
 console.error(&quot;CRITICAL ERROR: No API Key found!&quot;);
 process.exit(1);
