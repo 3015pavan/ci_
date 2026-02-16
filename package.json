@@ -4,6 +4,6 @@
   "description": "CI Weather App",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js"
+    "test": "node test.js"
   }
 }
