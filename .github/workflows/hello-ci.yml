@@ -1,0 +1,11 @@
+name: Greeting workflow
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: run a greeting
+        run: echo "the  ci pipeline has succesfully started"
+    
